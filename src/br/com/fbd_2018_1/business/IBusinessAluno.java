@@ -6,6 +6,7 @@
 package br.com.fbd_2018_1.business;
 
 import br.com.fbd_2018_1.entidade.Aluno;
+import br.com.fbd_2018_1.exceptions.BusinessException;
 import java.util.List;
 
 /**
@@ -13,10 +14,13 @@ import java.util.List;
  * @author prof Heldon
  */
 public interface IBusinessAluno {
-    
-    public void salvarOuEditar(Aluno aluno);
+
+    public Aluno salvarOuEditar(Aluno aluno) throws BusinessException;
+
     public Aluno buscarPorId(int id);
-    public Aluno buscarPorCpf(String cpf);
+
+    public Aluno buscarPorCpf(String cpf) throws BusinessException;
+
     public List<Aluno> buscarPorBusca(String busca);
-    
+
 }

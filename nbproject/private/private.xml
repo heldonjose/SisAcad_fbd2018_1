@@ -2,21 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/C:/Users/prof%20Heldon/Documents/NetBeansProjects/FBD_2018_1/src/br/com/fbd_2018_1/fachada/Fachada.java</file>
-            <file>file:/C:/Users/prof%20Heldon/Documents/NetBeansProjects/FBD_2018_1/src/br/com/fbd_2018_1/dao/IDaoCurso.java</file>
-            <file>file:/C:/Users/prof%20Heldon/Documents/NetBeansProjects/FBD_2018_1/src/br/com/fbd_2018_1/business/BusinessAluno.java</file>
-            <file>file:/C:/Users/prof%20Heldon/Documents/NetBeansProjects/FBD_2018_1/src/br/com/fbd_2018_1/sql/SQLConnection.java</file>
-            <file>file:/C:/Users/prof%20Heldon/Documents/NetBeansProjects/FBD_2018_1/src/fbd_2018_1/FBD_2018_1.java</file>
-            <file>file:/C:/Users/prof%20Heldon/Documents/NetBeansProjects/FBD_2018_1/src/br/com/fbd_2018_1/exceptions/BusinessException.java</file>
-            <file>file:/C:/Users/prof%20Heldon/Documents/NetBeansProjects/FBD_2018_1/src/br/com/fbd_2018_1/dao/DaoCurso.java</file>
-            <file>file:/C:/Users/prof%20Heldon/Documents/NetBeansProjects/FBD_2018_1/src/br/com/fbd_2018_1/business/BusinessCurso.java</file>
-            <file>file:/C:/Users/prof%20Heldon/Documents/NetBeansProjects/FBD_2018_1/src/br/com/fbd_2018_1/exceptions/DaoException.java</file>
-            <file>file:/C:/Users/prof%20Heldon/Documents/NetBeansProjects/FBD_2018_1/src/br/com/fbd_2018_1/entidade/Curso.java</file>
-            <file>file:/C:/Users/prof%20Heldon/Documents/NetBeansProjects/FBD_2018_1/src/br/com/fbd_2018_1/exceptions/ValidacaoException.java</file>
-            <file>file:/C:/Users/prof%20Heldon/Documents/NetBeansProjects/FBD_2018_1/src/br/com/fbd_2018_1/dao/DaoAluno.java</file>
-            <file>file:/C:/Users/prof%20Heldon/Documents/NetBeansProjects/FBD_2018_1/src/br/com/fbd_2018_1/business/IBusinessCurso.java</file>
-            <file>file:/C:/Users/prof%20Heldon/Documents/NetBeansProjects/FBD_2018_1/src/br/com/fbd_2018_1/fachada/IFachada.java</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>

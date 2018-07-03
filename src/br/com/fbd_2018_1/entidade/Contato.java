@@ -5,15 +5,17 @@
  */
 package br.com.fbd_2018_1.entidade;
 
+import br.com.fbd_2018_1.entidade.enums.TipoContato;
+
 /**
  *
  * @author prof Heldon
  */
-class Contato {
+public class Contato {
     
     private Integer id;
     //EMAIL, TELEFONE, FACEBOOk...
-    private String tipoContato;
+    private TipoContato tipoContato;
     private String descricao;
 
     public Integer getId() {
@@ -24,11 +26,11 @@ class Contato {
         this.id = id;
     }
 
-    public String getTipoContato() {
+    public TipoContato getTipoContato() {
         return tipoContato;
     }
 
-    public void setTipoContato(String tipoContato) {
+    public void setTipoContato(TipoContato tipoContato) {
         this.tipoContato = tipoContato;
     }
 
@@ -38,6 +40,11 @@ class Contato {
 
     public void setDescricao(String descricao) {
         this.descricao = descricao;
+    }
+
+    @Override
+    public String toString() {
+        return "Contato{" + "id=" + id + ", tipoContato=" + tipoContato + ", descricao=" + descricao + '}';
     }
     
     

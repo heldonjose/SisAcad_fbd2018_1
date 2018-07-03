@@ -6,6 +6,7 @@
 package br.com.fbd_2018_1.dao;
 
 import br.com.fbd_2018_1.entidade.Aluno;
+import br.com.fbd_2018_1.exceptions.DaoException;
 import java.util.List;
 
 /**
@@ -13,12 +14,15 @@ import java.util.List;
  * @author prof Heldon
  */
 public interface IDaoAluno {
-    
-    public void salvar(Aluno aluno);
+
+    public Aluno salvar(Aluno aluno) throws DaoException;
+
     public void editar(Aluno aluno);
+
     public Aluno buscarPorId(int id);
-    public Aluno buscarPorCpf(String cpf);
+
+    public Aluno buscarPorCpf(String cpf) throws DaoException;
+
     public List<Aluno> buscarPorBusca(String busca);
-    
-    
+
 }

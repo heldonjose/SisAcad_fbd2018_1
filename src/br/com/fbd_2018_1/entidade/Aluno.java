@@ -5,7 +5,11 @@
  */
 package br.com.fbd_2018_1.entidade;
 
+import br.com.fbd_2018_1.entidade.enums.Sexo;
+import com.oracle.webservices.internal.api.EnvelopeStyle;
 import java.util.Date;
+
+
 import java.util.List;
 
 public class Aluno {
@@ -14,10 +18,14 @@ public class Aluno {
     private String nome;
     private String cpf;
     private Date dataNascimento;
+
+    private boolean activo;
+    private Sexo sexo;
     private List<Contato> contatos;
+    private Endereco endereco;
 
     public Aluno() {
-
+        this.activo = true;
     }
 
     public Integer getId() {
@@ -60,4 +68,34 @@ public class Aluno {
         this.contatos = contatos;
     }
 
+    public Endereco getEndereco() {
+        return endereco;
+    }
+
+    public void setEndereco(Endereco endereco) {
+        this.endereco = endereco;
+    }
+
+    public boolean getActivo() {
+        return activo;
+    }
+
+    public void setActivo(boolean activo) {
+        this.activo = activo;
+    }
+
+    public Sexo getSexo() {
+        return sexo;
+    }
+
+    public void setSexo(Sexo sexo) {
+        this.sexo = sexo;
+    }
+
+    @Override
+    public String toString() {
+        return "Aluno{" + "id=" + id + ", nome=" + nome + ", cpf=" + cpf + ", dataNascimento=" + dataNascimento + ", activo=" + activo + ", sexo=" + sexo + ", contatos=" + contatos + ", endereco=" + endereco + '}';
+    }
+
+    
 }

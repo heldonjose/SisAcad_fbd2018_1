@@ -58,8 +58,10 @@ public class Fachada implements IFachada {
     }
 
     @Override
-    public void salvarOuEditarAluno(Aluno aluno) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public Aluno salvarOuEditarAluno(Aluno aluno) throws BusinessException{
+
+        return this.businessAluno.salvarOuEditar(aluno);
+
     }
 
     @Override
@@ -68,8 +70,9 @@ public class Fachada implements IFachada {
     }
 
     @Override
-    public Aluno buscarAlunoPorCpf(String cpf) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public Aluno buscarAlunoPorCpf(String cpf) throws BusinessException {
+           return businessAluno.buscarPorCpf(cpf);
+    
     }
 
     @Override

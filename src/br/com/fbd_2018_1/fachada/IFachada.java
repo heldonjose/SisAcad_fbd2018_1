@@ -16,7 +16,7 @@ import java.util.List;
  */
 public interface IFachada {
 
-    public void salvarOuEditarCurso(Curso curso)  throws BusinessException;
+    public void salvarOuEditarCurso(Curso curso) throws BusinessException;
 
     public Curso buscarCursoPorId(int id) throws BusinessException;
 
@@ -24,11 +24,11 @@ public interface IFachada {
 
     public List<Curso> buscarCursoPorBusca(String busca);
 
-    public void salvarOuEditarAluno(Aluno aluno);
+    public Aluno salvarOuEditarAluno(Aluno aluno) throws BusinessException;
 
     public Aluno buscarAlunoPorId(int id);
 
-    public Aluno buscarAlunoPorCpf(String cpf);
+    public Aluno buscarAlunoPorCpf(String cpf) throws BusinessException;
 
     public List<Aluno> buscarAlunoPorBusca(String busca);
 
